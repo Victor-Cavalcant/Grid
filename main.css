@@ -29,6 +29,7 @@
 .searchbar {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .searchbar>div {
@@ -55,6 +56,10 @@ input {
 .icon {
     width: 25px;
     margin-right: 20px;
+}
+
+.icon:hover {
+    cursor: pointer;
 }
 
 .profilePic {
@@ -96,6 +101,9 @@ input {
     margin-bottom: 20px;
 }
 
+.sidebar>ul>li:hover {
+    cursor: pointer;
+}
 
 .sidebar>ul {
 
@@ -103,7 +111,9 @@ input {
     margin-top: 80px;
 }
 
-
+button:hover {
+    cursor: pointer;
+}
 
 
 
@@ -194,7 +204,7 @@ input {
 
 
 .card1,.card2,.card3,.card4,.card5,.card6{
-    padding: 20px;
+    padding: 15px;
     background-color: white;
     height: 22vh;
     width: 26vw;
@@ -209,13 +219,14 @@ input {
     color: rgb(175, 172, 172);
     font-size: 0.8rem;
     margin-bottom: 20px;
+    font-weight: 500;
 }
 
 .cardIcons {
     display: flex;
     align-items: top;
     justify-content: end;
-    margin-top: 8vh;
+    margin-top: 7vh;
 }
 
 .card7, .card8 {
